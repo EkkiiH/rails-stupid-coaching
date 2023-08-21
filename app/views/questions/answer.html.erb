@@ -1,0 +1,14 @@
+<h1 class="my-5">Stupide Coaching</h1>
+
+
+<div class="blockquote p-3 border-start border-5 border-grey ps-4">
+  <p><%= @asked %></p>
+  <p class="fst-italic">- You</p>
+</div>
+<br>
+<div class="blockquote p-3 border-start border-5 border-grey ps-4 bg-warning bg-opacity-10">
+  <p><%= @answer %></p>
+  <p class="fst-italic">- Your Coach</p>
+</div>
+
+<p class="link-ask"><%= link_to "ask a new question", "/ask" %></p>

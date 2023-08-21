@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+.link-ask a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.link-ask a:hover{
+  color: white;
+}
+
+.link-ask {
+  background-color: #13A3CC;
+  text-decoration: none;
+  width: 35%;
+  margin: 2em 0;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.link-ask:hover {
+  transition: ease-in, 0.3s;
+  background-color: #ff8a5b;
+}
